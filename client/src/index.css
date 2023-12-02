@@ -1,0 +1,171 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.cliente-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cliente-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.cliente-form input {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.cliente-form button {
+  background-color: #90ee90;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cliente-form button:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilos para toda la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb;
+}
+/* Estilos para DatosComponent */
+.datos-component {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.datos-component h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.datos-component ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.datos-component li {
+  margin-bottom: 10px;
+}
+
+.datos-component button {
+  margin-left: 10px;
+  background-color: #90ee90;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.datos-component > div {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.datos-component h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la lista de casos */
+.cases-list {
+  padding-left: 20px;
+}
+
+.cases-list li {
+  margin-bottom: 5px;
+}
+
+.datos-component button:hover {
+  background-color: #d32f2f;
+}
+.column-titles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.client-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px; /* Espacio entre elementos */
+  margin-bottom: 10px;
+}
+.button-delete {
+  background-color: #90ee90;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-delete:hover {
+  background-color: #d32f2f;
+}
+
+/* styles.css */
+.caso-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.caso-form select,
+.caso-form input[type="text"],
+.caso-form textarea,
+.caso-form input[type="date"],
+.caso-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.caso-form button {
+  background-color: #90ee90;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.caso-form button:hover {
+  background-color: #d32f2f;
+}
